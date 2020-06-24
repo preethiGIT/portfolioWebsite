@@ -1,12 +1,38 @@
-import React from 'react';
+import React, { Component } from 'react';
+//import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import Navigation from './Navigation';
+import Header from './Header';
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class App extends Component {
+	render() {
+         return(
+         	<BrowserRouter>
+         	<div>
+         	<Navigation/>
+         	<Switch>
+          		<Route exact path="/" component={Home}/>
+          		<Route path="/about" component={About}/>
+        	</Switch>
+        	<a href = "https://github.com/preethiGIT">GitHub</a>
+         	</div>
+         	</BrowserRouter>
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+         	 );
+
+	}
+}
+
+ReactDOM.render(<App/>, document.getElementById('root'));
+
+
+
 serviceWorker.unregister();

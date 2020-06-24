@@ -1,0 +1,19 @@
+header 
+{
+	margin: 0 auto;
+	text-align:center;
+
+}
+section {
+    
+	margin: 0 auto;
+	font-size: 2rem;
+	color:white;
+	text-align:center;
+
+}
+ 
+ div{
+ 	background-image: url("img/sky.jpeg");
+ 	height:1000px;
+ }
