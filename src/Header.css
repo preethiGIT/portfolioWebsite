@@ -14,6 +14,14 @@ section {
 }
  
  div{
- 	background-image: url("img/sky.jpeg");
- 	height:1000px;
+	 background-image: url("img/blue1.jpg");
+	 background-size: cover;   -ms-background-size: cover;   -o-background-size: cover;   -moz-background-size: cover;   -webkit-background-size: cover; 
+	  /* height: 100px; */
+	  
+	 /*background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+ }
+ p{
+	word-wrap: break-word;
  }

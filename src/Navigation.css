@@ -1,7 +1,7 @@
 nav{
 	display:flex;
 	justify-content:space-between;
-	background-color: LightSteelBlue;
+	background-color: rgba(176, 201, 222, 0.342);
 	/*float: right;*/
 	align-items: center;
 	padding-right: 20px;
@@ -11,13 +11,13 @@ nav{
 nav ul{
 	list-style:none;
 	float: right;
-	color:red;
+	color:black;
 }
 
 nav ul li {
 	display:inline-block;
 	margin-right: 8px;
-	color:white;
+	color:black;
 
 }
 

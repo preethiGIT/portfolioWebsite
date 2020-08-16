@@ -22,7 +22,6 @@ class App extends Component {
           		<Route exact path="/" component={Home}/>
           		<Route path="/about" component={About}/>
         	</Switch>
-        	<a href = "https://github.com/preethiGIT">GitHub</a>
          	</div>
          	</BrowserRouter>
 

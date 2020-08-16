@@ -18,13 +18,13 @@ class Navigation extends Component {
     // });
     return (
       <nav>
-      <h2> My React portfolio</h2>
+      <h2>Portfolio</h2>
       <ul>
 
         <li><NavLink exact to="/">Home</NavLink></li>
         <li><NavLink to="/about/">About</NavLink></li>
-        <li><a href="https://www.linkedin.com/in/preethi-sudha-vasudev-0b48787a/">LinkedIn</a></li>
-        <li><a href="https://github.com/preethiGIT/">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/preethi-sudha-vasudev-0b48787a/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/preethiGIT/" target="_blank">GitHub</a></li>
 
         
       </ul>

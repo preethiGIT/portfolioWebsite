@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './About.css';
 
 class About extends Component{
     render(){
@@ -9,15 +10,15 @@ class About extends Component{
     <section  id="about">
       <div>
         
-          <span class="text-primary">Preethi Sudha Vasudev</span>
+          <b>Preethi Sudha Vasudev</b> <br/>4425 Casa Robles Dr Leander Tx 78641
         
-         <div class="subheading mb-5">4425 Casa Robles Dr Leander Tx 78641
+         <div>
                   <p>I am a Javascript and Python enthusiast. I am experienced in leveraging latest web frameworks and libraries to provide robust Full Stack solutions. Iterative approaches to complex engineering problems using the best tools and techniques</p>
-
+                  <br/>
                 <h2 class="mb-5">Experience</h2>
-                <div><span><p class="mb-0"><b>Web Developer - Long-View Micro</b></p>
+                <span><p ><b>Web Developer - Long-View Micro</b></p>
                  
-                <p> Create a bug free website for the user with user feiendly UI. Design search engine optimization techniques to improve 
+                <p> Create a bug free website for the user with user friendly UI. Design search engine optimization techniques to improve 
 
                     the website.Javascript form validations using regular expressions. </p></span><br/><br/>
 
@@ -36,7 +37,7 @@ class About extends Component{
                 
                 <p class="mb-0"><b>Database developer-Nimhans</b></p>
                 <p> Implemented and managed database tables for effective hospital management. Used various query optimization techniques like normalization, indexing.</p>
-                    </div>
+                    
             
             </div> 
       </div>
